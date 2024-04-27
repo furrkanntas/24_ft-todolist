@@ -67,7 +67,7 @@ ul li.checked::before {
 }
 
 .removeEl:hover {
-  background-color: #f78501; /* Hover etkisi için arka plan rengi değişimi */
+  background-color: #0195f7; /* Hover etkisi için arka plan rengi değişimi */
 }
 
 .header {
