@@ -1,0 +1,11 @@
+MIT License
+
+Telif Hakkı (c) [2024] [Furkan Taş]
+
+Bu yazılım ve ilgili belgeler ("Yazılım"), aşağıdaki koşullara tabidir:
+
+Yazılımın kopyasını edinen herkese, yazılımı kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya yazılımın kopyalarını satma hakkı verilir ve bu yazılımın sağlanmasıyla ilgili herhangi bir kişiye aşağıdaki koşullara tabi olmak üzere verilir:
+
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, bu yazılımın tüm kopyalarına veya önemli parçalarına dahil edilmelidir.
+
+YAZILIM "TİCARİ DEĞİLDİR", "İŞLEVSEL OLARAK" VEYA "HERHANGİ BİR GARANTİ OLMAKSIZIN" TEMİN EDİLMEKTEDİR. HİÇBİR KOŞULDA YAZARLAR VEYA TELİF HAKKI SAHİPLERİ HERHANGİ BİR İDDİA, HASAR VEYA DİĞER SORUMLULUKTAN SORUMLU DEĞİLDİR VEYA YAZILIMLA VEYA YAZILIMIN KULLANIMIYLA BAĞLANTILI, BAĞLANTILI VEYA BAĞLANTILI OLARAK ORTAYA ÇIKAN HERHANGİ BİR SORUMLULUĞU DESTEKLEMEYECEK VEYA KABUL ETMEYECEKTİR.
