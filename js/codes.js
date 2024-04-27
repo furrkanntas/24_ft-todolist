@@ -59,7 +59,7 @@ function newElement() {
 
 window.onload = function () {
     let items = JSON.parse(localStorage.getItem('items')) || [];
-    items.forEach(function(item) {
+    items.forEach(function (item) {
         let liDom = document.createElement('li');
         liDom.id = item.id;
         liDom.innerHTML = item.text;
@@ -76,7 +76,7 @@ window.onload = function () {
 function toggleChecked() {
     this.classList.toggle('checked'); // Çizili hale getirme
     let itemId = this.id;
-    
+
     // Görevin local storage'daki checked durumunu güncelleme
     let items = JSON.parse(localStorage.getItem('items')) || [];
     let updatedItems = items.map(item => {
@@ -91,8 +91,8 @@ function toggleChecked() {
 function removeFunc() {
     let removeEls = listDom.querySelectorAll('.removeEl');
 
-    removeEls.forEach(function(el) {
-        el.addEventListener('click', function(e) {
+    removeEls.forEach(function (el) {
+        el.addEventListener('click', function (e) {
             let parentEl = e.target.parentNode;
             let itemId = parentEl.id;
 
@@ -106,3 +106,17 @@ function removeFunc() {
         });
     });
 }
+
+var today = new Date();
+var dateElement = document.getElementById("date");
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+dateElement.textContent = today.toLocaleDateString("tr-TR", options);
+
+// Saat bilgisini al ve sayfaya ekle
+function updateClock() {
+    var now = new Date();
+    var clockElement = document.getElementById("clock");
+    var timeString = now.toLocaleTimeString("tr-TR");
+    clockElement.textContent = timeString;
+}
+setInterval(updateClock, 1000); // Her saniye güncelle

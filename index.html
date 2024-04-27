@@ -43,20 +43,32 @@
 
   <div class="container">
     <div class="header">
-      <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
-        class="mb-1" alt="" />
-      <h2>Yapılacaklar Listesi</h2>
+      <div class="row">
+        <div class="col-sm-9 pl-5">
+          <img
+            src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+            class="mb-1" alt="" />
+          <h2>Yapılacaklar Listesi</h2>
+        </div>
+        <div class="col-sm-3 mt-3">
+          <div class="border-bottom saat" id="date"></div> <!-- Tarih gösterimi -->
+          <span class="border-bottom saat" id="clock"></span> <!-- Saat gösterimi -->
+        </div>
+      </div>
+
       <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
       <span onclick="newElement()" id="liveToastBtn" class="button">Ekle</span>
     </div>
 
     <ul id="list">
-      <li>Eklediğin görev. Tamamladıysan yazının üzerine tıkla. Görevi silmek için sağdaki çarpı işaretine tıkla. >>>>> <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button></li>
+      <li>Eklediğin görev. Tamamladıysan yazının üzerine tıkla. Görevi silmek için sağdaki çarpı işaretine tıkla. >>>>>
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </li>
     </ul>
   </div>
 
 
-<!-- -------------------------------------- SCRIPTLER ----------------------------------------- -->
+  <!-- -------------------------------------- SCRIPTLER ----------------------------------------- -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -64,7 +76,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
-    <script src="/js/codes.js"></script>
+  <script src="/js/codes.js"></script>
 </body>
 
 </html>
