@@ -62,6 +62,14 @@ ul li.checked::before {
 
 }
 
+.removeEl {
+  cursor: pointer;
+}
+
+.removeEl:hover {
+  background-color: #f78501; /* Hover etkisi için arka plan rengi değişimi */
+}
+
 .header {
   background-color: #f78501;
   padding: 30px 40px;
